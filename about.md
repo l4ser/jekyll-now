@@ -12,4 +12,4 @@ A place to include any other types of information that you'd like to include abo
 
 ### Contact us
 
-[fuffateam@gmail.com](mailto:fuffateam@gmail.com)
+Send us an email at `fuffateam _at_ gmail _dot_ com`
