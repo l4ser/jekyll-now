@@ -109,8 +109,8 @@ would instead call system. Last thing I needed to do was to make root points to
 the `/bin/sh` string, but it was quite easy at this point to overwrite the first
 bytes of the first entry in the heap to insert the string.
 
-You can find the full exploit in [exp.py]({{ site.baseurl }}/files/googlectf2016/forcedpuns/exp.py)
-and related files [here]({{ site.baseurl }}/files/googlectf2016/forcedpuns/).
+You can find the full exploit in [exp.py]({{ site.github.url }}/tree/master/files/googlectf2016/forcedpuns/exp.py)
+and related files [here]({{ site.github.url }}/tree/master/files/googlectf2016/forcedpuns/).
 
 
 
