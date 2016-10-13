@@ -28,5 +28,4 @@ write ups, explain useful tricks and much more. A schedule will come soon.
 
 ### How
 
-Don't you know how to start? Have a look at [resources]({{
-site.baseurl }}/resources).
+Don't you know how to start? Have a look at [resources]({{ site.baseurl }}/resources/howtolearn).
