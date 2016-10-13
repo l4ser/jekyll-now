@@ -4,11 +4,23 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+We are a small group of students from Università degli Studi di Milano with a
+deep interest in Computer Security. We love playing Capture The Flag (CTF)
+competitions and meeting at the LaSER laboratory to hack and have fun together.
 
-### More Information
+### Members
 
-A place to include any other types of information that you'd like to include about yourself.
+* ax
+* castor91
+* hanyone
+* pagabuc
+* pickacard
+* pizzy
+* pox
+* pyno
+* r00ta
+* <a href="https://github.com/ret2libc" target="_blank">ret2libc</a>
+* sdb
 
 ### Contact us
 

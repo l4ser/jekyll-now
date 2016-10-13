@@ -30,6 +30,37 @@ body {
   width: 100%;
 }
 
+code {
+  padding: 0.3em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  margin: 0;
+  font-size: 85%;
+  background-color: rgba(0,0,0,0.04);
+  border-radius: 3px;
+}
+
+pre {
+  padding: 16px;
+  overflow: auto;
+  font-size: 85%;
+  line-height: 1.45;
+  background-color: #f7f7f7;
+  border-radius: 3px;
+}
+
+pre code {
+  display: inline;
+  max-width: auto;
+  padding: 0;
+  margin: 0;
+  overflow: visible;
+  line-height: inherit;
+  word-wrap: normal;
+  background-color: transparent;
+  border: 0;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: $helveticaNeue;
   color: $darkerGray;
@@ -151,7 +182,7 @@ img {
 //
 
 .wrapper-masthead {
-  margin-bottom: 50px;
+  margin-bottom: 10px;
 }
 
 .masthead {
@@ -259,6 +290,22 @@ nav {
     color: $gray;
     font-size: 22px;
     font-style: italic;
+  }
+
+  .headerbox {
+    .title {
+       display: block;
+       font-size: 28px;
+       font-weight: bold;
+       margin: 15px 0px 0px;
+    }
+
+    .author {
+       position: relative;
+       top: -6px;
+       font-style: italic;
+       font-size: 16px;
+    }
   }
 
   .comments {
