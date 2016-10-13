@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
+permalink: /
 ---
 
 We are a small group of students from Università degli Studi di Milano with a

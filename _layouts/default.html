@@ -26,11 +26,12 @@
             <p class="site-description">{{ site.description }}</p>
           </div>
 
+	  {% assign current = page.url | downcase | split: '/' %}
           <nav>
-            <a href="{{ site.baseurl }}/">Write ups</a>
-            <a href="{{ site.baseurl }}/resources">Resources</a>
-            <a href="{{ site.baseurl }}/joinus">Join us</a>
-            <a href="{{ site.baseurl }}/about">About</a>
+	     <a {% if current[1] == 'writeups' %}class='current'{% endif %} href="{{ site.baseurl }}/writeups">Write ups</a>
+	     <a {% if current[1] == 'resources' %}class='current'{% endif %} href="{{ site.baseurl }}/resources">Resources</a>
+	     <a {% if current[1] == 'joinus' %}class='current'{% endif %} href="{{ site.baseurl }}/joinus">Join us</a>
+	     <a {% if current.size < 2 %}class='current'{% endif %} href="{{ site.baseurl }}/">About</a>
           </nav>
         </header>
       </div>
