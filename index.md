@@ -11,14 +11,14 @@ competitions and meeting at the LaSER laboratory to hack and have fun together.
 ### Members
 
 * ax
-* castor91
-* hanyone
+* <a href="https://github.com/castor91" target="_blank">castor91</a>
+* <a href="https://twitter.com/_hanyOne" target="_blank">_hanyOne</a>
 * pagabuc
 * pickacard
 * pizzy
-* pox
+* <a href="https://twitter.com/_pox_" target="_blank">pox</a>
 * pyno
-* r00ta
+* <a href="https://github.com/r00ta" target="_blank">r00ta</a>
 * <a href="https://github.com/ret2libc" target="_blank">ret2libc</a>
 * sdb
 
