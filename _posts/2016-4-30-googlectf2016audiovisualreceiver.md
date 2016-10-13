@@ -89,4 +89,4 @@ I was able to get the flag quickly.
 
 ----
 
-Files for this challenge can be found [here]({{ site.github.url }}/tree/master/files/googlectf2016/audio_visual_receiver/).
+Files for this challenge can be found [here]({{ site.github_tree }}/tree/master/files/googlectf2016/audio_visual_receiver/).

@@ -83,5 +83,5 @@ the Downgrade attack ones, so we reused the same script and we ended up in the
 
 ------
 
-Files for this challenge can be found [here]({{ site.github.url }}/tree/master/files/googlectf2016/opabina_regalis/).
+Files for this challenge can be found [here]({{ site.github_tree }}/tree/master/files/googlectf2016/opabina_regalis/).
 
