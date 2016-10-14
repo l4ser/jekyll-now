@@ -13,7 +13,7 @@ competitions and meeting at the LaSER laboratory to hack and have fun together.
 * ax
 * <a href="https://github.com/castor91" target="_blank">castor91</a>
 * <a href="https://twitter.com/_hanyOne" target="_blank">_hanyOne</a>
-* pagabuc
+* <a href="https://twitter.com/pagabuc" target="_blank">pagabuc</a>
 * pickacard
 * pizzy
 * <a href="https://twitter.com/_pox_" target="_blank">pox</a>
