@@ -9,7 +9,7 @@ I worked on this challenge with @dariosharp.
 
 This crypto challenge (https://giant-goannas.ctfcompetition.com/) has a quite easy request
 
-![image](/files/googlectf2016/woodman/intro.png)
+![image]( {{ site.baseurl }}/files/googlectf2016/woodman/intro.png)
 
 So we have to choose the right number n-times consecutively. If we make a mistake, we have to repeat this process from the beginning (obviously with different numbers).
 <!--more-->
@@ -31,16 +31,16 @@ class SecurePrng(object):
 
 So let's do some math
 
-![image](/files/googlectf2016/woodman/mathStart.png)
+![image]( {{ site.baseurl }}/files/googlectf2016/woodman/mathStart.png)
 
 so assume that we know the first two correct number (just guess that): we only have to solve this system of equations in order 
 to find the first two random integer
 
-![image](/files/googlectf2016/woodman/mathSystem.png)
+![image]( {{ site.baseurl }}/files/googlectf2016/woodman/mathSystem.png)
 
 We guess the fist two step (not so difficult, it happens with 0.25 probability): in our case
 
-![image](/files/googlectf2016/woodman/myTwoGuesses.png)
+![image]( {{ site.baseurl }}/files/googlectf2016/woodman/myTwoGuesses.png)
 
 `Mathematica` refuses to solve that equation system: no problem, let's use z3!
 
@@ -155,4 +155,4 @@ CTF{_!_aRe_y0U_tH3_NSA_:-?_!_}
 
 ----
 
-Solver for this challenge can be found [here]({{ site.github_tree }}/tree/master/files/googlectf2016/woodman/solver.py).
+Solver for this challenge can be found [here]({{ site.baseurl }}/files/googlectf2016/woodman/solver.py).
