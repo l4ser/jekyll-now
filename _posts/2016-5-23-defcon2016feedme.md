@@ -154,4 +154,4 @@ The flag is: It's too bad! we c0uldn't??! d0 the R0P CHAIN BLIND TOO
 FEED ME!
 ```
 
-Files for this challenge can be found [here]({{ site.baseurl }}/files/defcon2016/feedme/).
+Files for this challenge can be found [here]({{ site.github_tree }}/tree/master/files/defcon2016/feedme/).
