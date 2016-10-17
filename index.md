@@ -20,7 +20,7 @@ competitions and meeting at the LaSER laboratory to hack and have fun together.
 * pyno
 * <a href="https://github.com/r00ta" target="_blank">r00ta</a>
 * <a href="https://github.com/ret2libc" target="_blank">ret2libc</a>
-* sdb
+* <a href="https://twitter.com/dariosharp" target="_blank">dariosharp</a>
 
 ### Contact us
 
