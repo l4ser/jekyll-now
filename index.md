@@ -10,7 +10,7 @@ competitions and meeting at the LaSER laboratory to hack and have fun together.
 
 ### Members
 
-* ax
+* <a href="https://twitter.com/ax_tryin" target="_blank">ax</a>
 * <a href="https://github.com/castor91" target="_blank">castor91</a>
 * <a href="https://twitter.com/_hanyOne" target="_blank">_hanyOne</a>
 * <a href="https://twitter.com/pagabuc" target="_blank">pagabuc</a>
