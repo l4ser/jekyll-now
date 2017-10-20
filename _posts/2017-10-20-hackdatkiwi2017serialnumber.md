@@ -6,7 +6,7 @@ excerpt_separator: <!--more-->
 ---
 
 The challenge here is to bypass a creative authentication mechanism.
-You can download the server's source code at [link](#), and run
+You can download the server's source code [here]({{site.github_tree}}/tree/master/files/kiwictf2017/serialnumber), and run
 it in local as I did during the CTF.
 
 \<tl;dr\>
