@@ -12,7 +12,7 @@ it in local as I did during the CTF.
 \<tl;dr\>
 
 To have the flag you just need to login with a serialnuber which
-exists in a table named 'serialnumbers', initially populated with
+exists in a table named 'serialnumbers', initially populated by
 2 entries.
 
 To bypass authentication and print the flag just signup as:
@@ -48,11 +48,11 @@ password is hashed before the query is executed... Woah challenging!
 
 After a closer look to the query I realized that the variable 
 `$serialnumber` is not included in quotes (interesting..)
-and, since I'm not very familiar to PHP, it took me some google 
+and, since I'm not very familiar with PHP, it took me some google 
 searches to work out what the notation `{$serialnumber}` stands 
 for. 
 
-This example should clarify this syntax for those like me who is not
+This example should clarify this syntax for those like me who are not
 so handy with PHP:
 ```php
 php> $z = "magic";
@@ -82,17 +82,17 @@ the user is added legitimately), or
 **Option** 1. Clearly impossible. Infact, even if I had known an admin serial
 number, the serialnumber field is set to UNIQUE in table users.
 
-**Option** 2. Unexcaped var. With the PHP `${}` trick in mind I looked at 
+**Option** 2. Unescaped var. With the PHP `${}` trick in mind I looked at 
 unescaped variables that I could reference and, hey, the  `$password` vairable 
 seems good!
 
-So I tryied to put the injection in the password field doing a signup like:
+So I tried to put the injection in the password field doing a signup like:
 ```
 Username: pypy
 Password: 1234
 Serialnumber: password
 ```
-This way if I found in serialnumber the value 1234 means I'm able to inject
+This way if I found in serialnumber the value 1234, it means I'm able to inject
 the payload in the password field. But unfortunately:
 
 ```sql
@@ -115,7 +115,7 @@ md5, so it is useless.
 
 **Option 3**. Try them all. We said we need the query in isadmin() function
 somehow to return at least a tuple. We have only 2 variables left.
-Since refering to username which is excaped too doesn't seems too
+Since refering to username which is escaped too doesn't seem too
 promising, I tried to refer to the serialnumber variable itself.
 
 ```
